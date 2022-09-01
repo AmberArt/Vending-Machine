@@ -1,0 +1,63 @@
+#top-row {
+    border: 2px solid black;
+    height: 6.25rem;
+}
+
+#middle-row {
+    border: 2px solid black;
+    height: 6.25rem;
+}
+
+#bottom-row {
+    border: 2px solid black;
+    height: 6.25rem;
+}
+
+.items {
+    
+    border: 1px solid black;
+    background-color: limegreen;
+}
+
+#money-col {
+    border: 2px solid black;
+    height: 18.75rem;
+}
+
+#outlet {
+    border: 2px solid crimson;
+    height: 6.25rem;
+    justify-content: center;
+}
+
+.item-collection-box {
+    background-color: yellow;
+    height: 3rem;
+    margin: .8rem;
+    width: 50%;
+    align-self: center;
+}
+
+.card-insert {
+    border: 1px solid black;
+    height: 4rem;
+    width: 7rem;
+    background-color: purple;
+    align-self: center;
+}
+
+.cash-insert {
+    border: 1px solid black;
+    height: 4rem;
+    width: 7rem;
+    background-color: purple;
+    align-self: center;
+}
+
+.return-change {
+    border: 1px solid black;
+    height: 4rem;
+    width: 7rem;
+    background-color: purple;
+    align-self: center;
+}
