@@ -21,7 +21,7 @@
                 <!-- first column holding items -->
                 <div id="item-col" class="col-lg-10 col-md-10 col-sm-10">
                     <!-- each row holds 4 items -->
-                    <div id="top-row" class="row">
+                    <!-- <div id="top-row" class="row">
                         <div class="col-3 items">
                             <img src="" alt="" class="item-1">
                             <button>Item 1</button>
@@ -73,7 +73,7 @@
                         <div class=" col-3 items">
                              <img src="" alt="" class="item-12">
                             <button>Item 12</button>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!-- second column containing money input, buttons, and change -->
@@ -109,6 +109,20 @@
         </div>
     </div>
 
+    <div class="col-3 m-4">
+        <form>
+            <div class="mb-3">
+            <label for="itemImageLink" class="form-label">Item Image Link</label>
+            <input type="text" class="form-control" id="itemImageLink" aria-describedby="item image link">
+            </div>
+            <div class="mb-3">
+            <label for="priceOfItem" class="form-label">3.00</label>
+            <input type="number" class="form-control" id="priceOfItem">
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+        </form>
+    </div>
+
 
 
 
@@ -118,5 +132,7 @@
     
     <!-- bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./JavaScript/VendingMachineItemsController.js"></script>
+    <script src="./JavaScript/vendingMachineITem.js"></script>
 </body>
 </html>
